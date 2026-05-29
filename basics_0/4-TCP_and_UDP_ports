@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# search ofr all the socket listnening and show their PID
 
-ss -l -p
+netstat -l -p
